@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Rough XML -->
+<!-- <class>
+    <student>
+        <firstName>Chuck</firstName>
+        <lastName>Taylor</lastName>
+        <age>20</age>
+    </student>
+</class> -->
+
+<xs:schema xmlns:xs="https://www.w3.org/2001/XMLSchema">
+    <xs:element name="class">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="student">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="firstname" type="xs:string" />
+                            <xs:element name="lastname" type="xs:string" />
+                            <xs:element name="age" type="xs:int" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

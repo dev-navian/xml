@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogue type="education">
+    <book>
+        <title>Learning XML</title>
+        <author>D. K. Jones</author>
+        <publisher>O'Reilly</publisher>
+        <pubdate>2001</pubdate>
+        <cost>34.95</cost>
+    </book>
+
+    <book>
+        <title>Learning XML</title>
+        <author>D. K. Jones</author>
+        <publisher>O'Reilly</publisher>
+        <pubdate>2001</pubdate>
+        <cost>34.95</cost>
+    </book>
+</catalogue> 
